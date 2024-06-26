@@ -46,12 +46,13 @@ public class ConversionController : ControllerBase
             {
                 PageWidth = 500,
                 PageHeight = 500,
-                BackgroundColor = Color.FromArgb(ColorTranslator.FromHtml("#E1EBED").ToArgb()),
+                BackgroundColor = Color.FromArgb(ColorTranslator.FromHtml("#121226").ToArgb()),
                 AutomaticLayoutsScaling = true,
                 NoScaling = true,
                 ScaleMethod = ScaleType.GrowToFit,
                 Zoom = 1,
-                DrawType = CadDrawTypeMode.UseObjectColor,
+                DrawType = CadDrawTypeMode.UseDrawColor,
+                DrawColor = Color.FromArgb(ColorTranslator.FromHtml("#717A9B").ToArgb()),
                 VisibilityMode = VisibilityMode.AsScreen,
                 Quality = new RasterizationQuality
                 {
