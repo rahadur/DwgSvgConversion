@@ -1,4 +1,8 @@
+using DwgSvgConversion;
+
 var builder = WebApplication.CreateBuilder(args);
+
+AsposeLicense.Load(Environment.CurrentDirectory);
 
 // Add services to the container.
 
